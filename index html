@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page personnelle - Expert en Data</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f0e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6d4c41;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Courier New', monospace;
+            font-size: 2.5em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .projets {
+            background-color: #fff8e1;
+            border: 2px solid #6d4c41;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .projet {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #6d4c41;
+            color: white;
+        }
+        a {
+            color: #6d4c41;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+        <p>Data Scientist spécialisé dans l'analyse et la visualisation de données</p>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Passionné par la science des données et l'exploitation des données pour des insights puissants, j'ai travaillé sur plusieurs projets innovants.</p>
+    </section>
+
+    <section id="projects" class="projets">
+        <h2>Mes projets</h2>
+        <div class="projet">
+            <h3>Projet 1 : Analyse prédictive</h3>
+            <p>Un projet de modélisation prédictive où j'ai utilisé Python et des algorithmes de machine learning pour prédire les ventes d'une entreprise.</p>
+            <a href="https://github.com/ton-utilisateur/ton-depot/blob/main/ton_notebook1.ipynb">Voir le notebook</a>
+        </div>
+        <div class="projet">
+            <h3>Projet 2 : Visualisation interactive des données</h3>
+            <p>Un tableau de bord interactif conçu avec Power BI pour aider à visualiser les tendances des données marketing.</p>
+            <a href="https://github.com/ton-utilisateur/ton-depot/blob/main/ton_notebook2.ipynb">Voir le notebook</a>
+        </div>
+        <div class="projet">
+            <h3>Projet 3 : Présentation de l'analyse des données</h3>
+            <p>Une présentation des résultats d'une analyse de données réalisée pour un client.</p>
+            <a href="https://github.com/ton-utilisateur/ton-depot/blob/main/presentation.pdf">Voir la présentation</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contactez-moi à : email@example.com</p>
+    </footer>
+</body>
+</html>
